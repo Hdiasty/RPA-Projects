@@ -1,1 +1,1 @@
-Corona Virus World Meter Bot
+Corona Virus World Meter Classic Bot 
