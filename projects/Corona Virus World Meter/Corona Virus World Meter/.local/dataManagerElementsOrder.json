@@ -1,0 +1,29 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Recovered&Sequence_3",
+        "Deaths&Sequence_3",
+        "Cases&Sequence_3",
+        "GetCountry&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Recovered",
+        "Deaths",
+        "Cases"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

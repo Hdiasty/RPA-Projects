@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E2MASriZckmVFPpOz8cPmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="worldometers.info/coronavirus" CVScreenId="771ee77c-2c1a-4661-b3e8-b00723bbda36" CvTextArea="447, 836, 462, 81" CvType="AnyWordGroup" DesignTimeRectangle="452, 814, 463, 111" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='maincounter-wrap' tag='SPAN' type='' class='' /&gt;" Guid="dabf6d28-352f-49a9-aa59-d59d497f2cb2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COVID - Coronavirus Statistics - Worldometer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="771ee77c-2c1a-4661-b3e8-b00723bbda36" DesignTimeRectangle="156, 734, 1055, 78" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H1' class='' aaname='Recovered:' check:innerText='Recovered:' /&gt;" Guid="e0e15eb2-683b-4d7c-9082-df12d148c1fd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1746eacdfd99c71c0c4558fef3b889be.png" xmlns="">04UDMBKGX8k2HoXu0fKLmIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pDjdFWHS_0WQxuUo_nqnnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk/search" CVScreenId="38eb35db-7474-4eda-96eb-f1ec2aedebba" CvTextArea="144, 570, 636, 27" CvTextArgument="United Kingdom COVID - Coronavirus Statistics" CvType="Text" DesignTimeRectangle="146, 558, 633, 46" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='United Kingdom COVID - Coronavirus Statistics' check:innerText='United Kingdom COVID - Coronavirus Statistics' /&gt;" Guid="3aa8c691-5d32-4b3c-9501-423f4c3c17dd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='uk Corona virus world meter - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="146, 500, 978, 54" FuzzySelectorArgument="&lt;webctrl type='' parentid='ixcYae' tag='DIV' class='q0vns' aaname='' check:innerText='Worldometer&amp;#xA;https://www.worldometers.info › country › uk' /&gt;" Guid="723a00f8-daa8-4d13-8458-de8685425e13" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="19718215f843c502185e57df3268b793.png" xmlns="">0CnlNrXi0iECbXOLzl-t5nA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iYdEjCP7d02kAplQoBbVtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk" CVScreenId="bdd38928-4bd5-4f6b-8364-ec240e9e6dca" CvElementArea="757, 521, 196, 58" CvTextArea="783, 539, 143, 24" CvTextArgument="Google Search" CvType="Button" DesignTimeRectangle="757, 520, 197, 58" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="51dc346f-9271-4216-b70c-9795acddf17e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0d7df6ac15648a10877aa73e6518b0ec.png" xmlns="">0964a7rjKZkSOOSBcM9B6tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

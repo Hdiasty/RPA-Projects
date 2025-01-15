@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Session 4 - Google Drive",
+  "Type": "Screen",
+  "Id": "NDwsaDiQpkS9S084Pb4H8A",
+  "Reference": "P2Hwk0OUI0ybIk_dsonrnw/NDwsaDiQpkS9S084Pb4H8A",
+  "ParentRef": "P2Hwk0OUI0ybIk_dsonrnw/fKPVdtmBaUmkSLghXGHLaw",
+  "Created": "2025-01-02T22:57:17.171048Z",
+  "Updated": "2025-01-02T22:57:17.171048Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

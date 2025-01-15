@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'United Kingdom COVID - …'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vGlLIVWXBEW77UQ3stVONg",
+  "Reference": "fKnNvYBbOkGbydtvhzZ3Xg/vGlLIVWXBEW77UQ3stVONg",
+  "ParentRef": "fKnNvYBbOkGbydtvhzZ3Xg/raZKsjVvRUmm-GUqGHP45Q",
+  "Created": "2025-01-08T17:40:56.441079Z",
+  "Updated": "2025-01-08T17:40:56.441079Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

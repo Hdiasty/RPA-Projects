@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6_t2uF3kEkWTWfa6WBPbGg" Reference="fKnNvYBbOkGbydtvhzZ3Xg/vDpfCyjpX06dEnL-ACXhUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk/search" CVScreenId="12ac216a-7b8b-4a2d-8da6-2849a58cfe48" DesignTimeRectangle="156, 475, 1055, 223" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='COVID - Coronavirus Statistics - Worldometer' check:innerText='COVID - Coronavirus Statistics - Worldometer' /&gt;" Guid="73c06029-6d3c-4969-8de6-bf9c01e2ec8f" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Corona virus world meter - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="12ac216a-7b8b-4a2d-8da6-2849a58cfe48" CvTextArea="201, 446, 129, 19" CvTextArgument="Worldometer" CvType="Text" DesignTimeRectangle="704, 4257, 115, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='VuuXrf' parentid='AyvPbf' tag='SPAN' type='' aaname='Worldometer' check:innerText='Worldometer' /&gt;" Guid="7ff9b019-6062-466f-8f6a-15101a13b999" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="59e04f0244b5f45261ec164780ea74a8.png" xmlns="">06ScOI6BymUiHNkMKEShDqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

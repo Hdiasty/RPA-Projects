@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Qatar COVID - Coronavir…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "go5UJSWFT0654nv6c6nWlg",
+  "Reference": "fKnNvYBbOkGbydtvhzZ3Xg/go5UJSWFT0654nv6c6nWlg",
+  "ParentRef": "fKnNvYBbOkGbydtvhzZ3Xg/raZKsjVvRUmm-GUqGHP45Q",
+  "Created": "2025-01-08T18:18:34.0568852Z",
+  "Updated": "2025-01-08T18:18:34.0568852Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kWTSAtx9aUaWfPcDioR36Q" Reference="fKnNvYBbOkGbydtvhzZ3Xg/go5UJSWFT0654nv6c6nWlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk/search" CVScreenId="6cd534a0-d8ff-403d-9375-21f0a09cd1d3" DesignTimeRectangle="146, 501, 496, 47" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='Qatar COVID - Coronavirus Statistics' check:innerText='Qatar COVID - Coronavirus Statistics' /&gt;" Guid="f06836b3-7ede-4dec-bb83-e2c9caa500a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='qatar Corona virus world meter - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="146, 443, 978, 54" FuzzySelectorArgument="&lt;webctrl type='' parentid='ixcYae' tag='DIV' class='q0vns' aaname='' check:innerText='Worldometer&amp;#xA;https://www.worldometers.info › coronavirus › country' /&gt;" Guid="c8d893f4-f5c8-44bd-95c2-ac06a3d6b3f4" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="966de339fcaecb002ba706c67b79e5da.png" xmlns="">0vhep33-T40CrayjvVH7JUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

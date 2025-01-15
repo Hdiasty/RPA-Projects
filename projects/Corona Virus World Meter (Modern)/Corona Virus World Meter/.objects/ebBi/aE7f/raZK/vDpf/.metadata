@@ -1,0 +1,14 @@
+﻿{
+  "Name": "COVID - Coronavirus Sta…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vDpfCyjpX06dEnL-ACXhUA",
+  "Reference": "fKnNvYBbOkGbydtvhzZ3Xg/vDpfCyjpX06dEnL-ACXhUA",
+  "ParentRef": "fKnNvYBbOkGbydtvhzZ3Xg/raZKsjVvRUmm-GUqGHP45Q",
+  "Created": "2025-01-07T21:53:17.1819256Z",
+  "Updated": "2025-01-07T21:53:17.1819256Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
