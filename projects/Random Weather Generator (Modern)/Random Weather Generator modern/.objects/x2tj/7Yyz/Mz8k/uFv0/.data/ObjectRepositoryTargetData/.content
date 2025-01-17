@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lzMdPyjDYUqxLYOHeaCG4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk" CVScreenId="9bf72b05-c916-41c7-9cd9-f5ff457f975c" CvElementArea="757, 521, 196, 58" CvTextArea="783, 539, 143, 24" CvTextArgument="Google Search" CvType="Button" DesignTimeRectangle="761, 523, 190, 54" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='submit' tag='INPUT' class='gNO89b' aaname='Google Search' check:text='Google Search' /&gt;" Guid="a226aeab-18cb-496a-aad7-eaa65b39cc8d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6613154a7fad454f5b4915e800ba5bd8.png" xmlns="">0px1rbjkOtkOtthGQKZ0E3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

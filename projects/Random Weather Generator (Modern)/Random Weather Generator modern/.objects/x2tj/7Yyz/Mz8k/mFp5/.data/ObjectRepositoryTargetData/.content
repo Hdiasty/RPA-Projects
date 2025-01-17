@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="11aCnLHS_UeO96KPr2Q6mQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="donjon.bin.sh/d20/weather" DesignTimeRectangle="385, 408, 1148, 620" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='DIV' aaname='            ' /&gt;" Guid="1063f69b-996d-4357-83ba-af260867dc22" ScopeSelectorArgument="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e500e155bf8015e9e84712fd53fe75d8.png" xmlns="">0CZDV1G3qcEy25dEtxWzTmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

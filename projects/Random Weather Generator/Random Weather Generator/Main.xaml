@@ -106,29 +106,30 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="915.9999999999999,2671.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="915.9999999999999,2810.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="586,2648.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence sap:VirtualizedContainerService.HintSize="586,2788" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="552,2566" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://www.google.co.uk/">
+      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="552,2705.3333333333335" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://www.google.co.uk/">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2416" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2555.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="Description" />
                 <Variable x:TypeArguments="x:String" Name="WindForce" />
                 <Variable x:TypeArguments="x:String" Name="WindSpeed" />
+                <Variable x:TypeArguments="x:String" Name="Details" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -243,7 +244,7 @@
                   </ui:Target>
                 </ui:SelectItem.Target>
               </ui:SelectItem>
-              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'weather'" sap:VirtualizedContainerService.HintSize="484,189.33333333333334" sap2010:WorkflowViewState.IdRef="SelectItem_6" Item="Common">
+              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'weather'" sap:VirtualizedContainerService.HintSize="484,189.33333333333334" sap2010:WorkflowViewState.IdRef="SelectItem_6" Item="Rare">
                 <ui:SelectItem.Items>
                   <scg:List x:TypeArguments="x:String" Capacity="4">
                     <x:String>No</x:String>
@@ -275,7 +276,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4dff6c7f-968b-40bd-bd5f-efc69ed562bc" InformativeScreenshot="3d3d4ca6d1621b346945eb148874c9a4" Selector="&lt;webctrl aaname='Generate' tag='INPUT' type='button' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4dff6c7f-968b-40bd-bd5f-efc69ed562bc" InformativeScreenshot="3d3d4ca6d1621b346945eb148874c9a4" Selector="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;&lt;webctrl aaname='Generate' tag='INPUT' type='button' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -287,7 +288,7 @@
               </ui:Click>
               <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Description'" sap:VirtualizedContainerService.HintSize="484,139.33333333333334" sap2010:WorkflowViewState.IdRef="GetValue_3">
                 <ui:GetValue.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7a2ef8b3-84d3-4770-abb1-d0a8a5674a06" InformativeScreenshot="e056cd0ae69ef6d1f453837d08e3279e" Selector="&lt;webctrl aaname='Snow' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7a2ef8b3-84d3-4770-abb1-d0a8a5674a06" InformativeScreenshot="e056cd0ae69ef6d1f453837d08e3279e" Selector="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;&lt;webctrl class='cell' tag='DIV' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -302,7 +303,7 @@
               </ui:GetValue>
               <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Temperature'" sap:VirtualizedContainerService.HintSize="484,139.33333333333334" sap2010:WorkflowViewState.IdRef="GetValue_4">
                 <ui:GetValue.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="33b7a89f-d36f-480e-9f4f-18df9f89e329" InformativeScreenshot="57af62761248cc87ec644b8a1c04a987" Selector="&lt;webctrl aaname='Cold' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="33b7a89f-d36f-480e-9f4f-18df9f89e329" InformativeScreenshot="57af62761248cc87ec644b8a1c04a987" Selector="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;&lt;webctrl class='cell' idx='2' tag='DIV' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -317,7 +318,7 @@
               </ui:GetValue>
               <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Wind force'" sap:VirtualizedContainerService.HintSize="484,139.33333333333334" sap2010:WorkflowViewState.IdRef="GetValue_5">
                 <ui:GetValue.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="820db691-b719-44d9-af35-ff549a2d84f5" InformativeScreenshot="d8c3c5be31b2a139ae06cc68c1fbe0fc" Selector="&lt;webctrl aaname='Light' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="820db691-b719-44d9-af35-ff549a2d84f5" InformativeScreenshot="d8c3c5be31b2a139ae06cc68c1fbe0fc" Selector="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;&lt;webctrl class='cell' idx='6' tag='DIV' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -332,7 +333,7 @@
               </ui:GetValue>
               <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Wind speed'" sap:VirtualizedContainerService.HintSize="484,139.33333333333334" sap2010:WorkflowViewState.IdRef="GetValue_6">
                 <ui:GetValue.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="87810630-cd93-4093-bca9-6f82fa80de8a" InformativeScreenshot="c7bfc8447764edab8bbb57382662e6d1" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' isleaf='1' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="87810630-cd93-4093-bca9-6f82fa80de8a" InformativeScreenshot="c7bfc8447764edab8bbb57382662e6d1" Selector="&lt;html app='chrome.exe' title='donjon; Random Weather Generator' /&gt;&lt;webctrl class='cell' idx='7' tag='DIV' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -343,6 +344,21 @@
                 </ui:GetValue.Target>
                 <ui:GetValue.Value>
                   <OutArgument x:TypeArguments="x:String">[WindSpeed]</OutArgument>
+                </ui:GetValue.Value>
+              </ui:GetValue>
+              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Details'" sap:VirtualizedContainerService.HintSize="484,139.33333333333334" sap2010:WorkflowViewState.IdRef="GetValue_8">
+                <ui:GetValue.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb782586-9c12-4f96-af3e-1614c0da99c4" InformativeScreenshot="8b40b432645f47cac2889c490a00dae2" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='4' tag='DIV' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetValue.Target>
+                <ui:GetValue.Value>
+                  <OutArgument x:TypeArguments="x:String">[Details]</OutArgument>
                 </ui:GetValue.Value>
               </ui:GetValue>
               <ui:CloseTab Browser="{x:Null}" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="484,57.333333333333336" sap2010:WorkflowViewState.IdRef="CloseTab_1" />
@@ -358,7 +374,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="Random weather generator.txt" sap:VirtualizedContainerService.HintSize="416,159.33333333333334" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[&quot;Random Weather Generator&quot;+vbCr+&#xA;&quot;Description: &quot; + Description+vbCr+&#xA;&quot;Temperature: &quot; + Temperature+vbCr+&#xA;&quot;Wind Force: &quot; + WindForce+vbCr+&#xA;&quot;Wind Speed: &quot; + WindSpeed+vbCr]" />
+                      <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="Random weather generator.txt" sap:VirtualizedContainerService.HintSize="416,159.33333333333334" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[&quot;Random Weather Generator&quot;+vbCr+&#xD;&#xA;Description+vbCr+&#xD;&#xA;Temperature+vbCr+&#xD;&#xA;WindForce+vbCr+&#xD;&#xA;WindSpeed+vbCr+&#xD;&#xA;Details +vbCr]" />
                     </Sequence>
                   </ActivityAction>
                 </ui:OpenApplication.Body>

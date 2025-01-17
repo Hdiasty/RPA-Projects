@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Supernatural Weather",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "rXh2BNC0NUquRWYpP2njdQ",
+  "Reference": "50xxbipjs0K0CTzBYJyNQg/rXh2BNC0NUquRWYpP2njdQ",
+  "ParentRef": "50xxbipjs0K0CTzBYJyNQg/Mz8kKL78dUCvrktvVdGLXA",
+  "Created": "2025-01-15T22:37:31.5413081Z",
+  "Updated": "2025-01-15T22:37:31.5413081Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

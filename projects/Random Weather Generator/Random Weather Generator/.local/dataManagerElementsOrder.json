@@ -12,12 +12,10 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "Details&Sequence_5",
         "Description&Sequence_5",
         "WindForce&Sequence_5",
-        "WindSpeed&Sequence_5",
-        "UserChoice&Sequence_3",
-        "UserInput&Sequence_3",
-        "Data&Sequence_3"
+        "WindSpeed&Sequence_5"
       ],
       "ArgumentsSectionElementsOrder": [
         "Temperature"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nPKfh8yWAEOZ8DqQEXN_hA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.co.uk/search" CVScreenId="f5235b1e-f818-478d-8feb-94ffbd773d83" DesignTimeRectangle="146, 443, 487, 47" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='donjon; Random Weather Generator' check:innerText='donjon; Random Weather Generator' /&gt;" Guid="bb6b40ea-5ef0-47b7-8649-5ad34120fd9d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='random weather generator - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="146, 386, 978, 54" FuzzySelectorArgument="&lt;webctrl type='' parentid='ixcYae' tag='DIV' class='q0vns' aaname='' check:innerText='donjon; RPG Tools&amp;#xA;https://donjon.bin.sh › weather' /&gt;" Guid="77b070ed-6511-4b18-bb10-f86aa95dda93" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="97d34713b7debcec430361e85574245b.png" xmlns="">0NkARj57q0kKwzffzIfpJTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

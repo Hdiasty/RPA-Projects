@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Climate",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "TXUb_XrzJUSF9TddpJjJGA",
+  "Reference": "50xxbipjs0K0CTzBYJyNQg/TXUb_XrzJUSF9TddpJjJGA",
+  "ParentRef": "50xxbipjs0K0CTzBYJyNQg/Mz8kKL78dUCvrktvVdGLXA",
+  "Created": "2025-01-15T22:36:29.178049Z",
+  "Updated": "2025-01-15T22:36:29.178049Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
