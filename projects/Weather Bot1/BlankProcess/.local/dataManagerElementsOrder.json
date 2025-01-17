@@ -1,0 +1,40 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CountryName&Sequence_1",
+        "GetCountry&Sequence_2",
+        "UiBrowser&Sequence_1",
+        "GetHumid&Sequence_2",
+        "GetTemp&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "D:/Haidy/RPA/Bots/Weather Bot/Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UiBrowser&Sequence_1",
+        "CountryName&Sequence_1",
+        "GetTemp&Sequence_2",
+        "GetHumid&Sequence_2",
+        "GetCountry&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
