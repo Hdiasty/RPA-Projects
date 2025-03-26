@@ -85,6 +85,8 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Cryptography</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Extracting_Invoice_table" sap:VirtualizedContainerService.HintSize="1192,463.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -93,7 +95,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Description: Open Invoices Window from Search for invoice.&#xA;&#xD;&#xA;Pre Condition: Check if &quot;Dashboard&quot; page exists.&#xD;&#xA;&#xD;&#xA;Post Condition: Check if &quot;Invoices&quot; page exists.&#xA;&#xD;&#xA;In Arguments: &#xA; - in_intNumberOfRetry: Int32&#xA; - in_tsRetryDuration: TimeSpan&#xA;&#xD;&#xA;Out Arguments:" DisplayName="Open Invoices Window" sap:VirtualizedContainerService.HintSize="450,440.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="Description: Open Invoices Window from Search for invoice.&#xA;&#xA;Pre Condition: Check if &quot;Dashboard&quot; page exists.&#xA;&#xA;Post Condition: Check if &quot;Invoices&quot; page exists.&#xA;&#xA;In Arguments: &#xA; - in_intNumberOfRetry: Int32&#xA; - in_tsRetryDuration: TimeSpan&#xA;&#xA;Out Arguments:" DisplayName="Open Invoices Window" sap:VirtualizedContainerService.HintSize="450,440.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -101,7 +103,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Open Invoices Tab Starts&quot;]">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Open Invoices Window Starts&quot;]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -407,7 +409,7 @@
           </Sequence>
         </TryCatch.Finally>
       </TryCatch>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Open Invoices Tab Ends&quot;]">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Open Invoices Window Ends&quot;]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
