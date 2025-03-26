@@ -1,0 +1,14 @@
+1- Open ACME System1 using the link https://acme-test.uipath.com.
+2- Log in with the following credentials:
+	Username: robotics@vois.com
+	Password: 12345678
+3- Go to Invoices tab to search for invoice and click on "Display all invoices" to extract the table.
+4- Encrypt the data and upload it to the robot queue based on the following criteria, considering the currency unit:
+	- Select the top 15 invoices with the highest values in the "Total" column and upload them with High Priority if the "Invoice Item" column contains the category "IT Support" or "Professional Services".
+	- Select the next 15 highest invoices from the "Total" column and upload them with Normal Priority if the "Invoice Item" column contains the category "Beverages and Catering" or "Concierge Services".
+	- Upload all remaining invoices with Low Priority.
+5- Create an excel file named "Invoices".
+6- For each invoice Item, create a new sheet with the invoice item category (Like "IT Support" or....), containing all related invoices.
+7- Calculate the total amount for each sheet.
+8- Save the output file and upload it to OneDrive using the API, without using the UiPath OneDrive library.
+9- Send the output file via email, attached in the mail body a table with two columns: "Invoice Item" category and "Total Amount".

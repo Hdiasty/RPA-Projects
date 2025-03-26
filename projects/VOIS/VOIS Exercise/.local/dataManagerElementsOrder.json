@@ -1,0 +1,148 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtAllData&Flowchart_1",
+        "intNumberOfRetry&Flowchart_1",
+        "tsRetryDuration&Flowchart_1",
+        "strEmail&Flowchart_1",
+        "strPassword&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Extracting Invoices Table.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_2",
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intNumberOfRetry",
+        "in_tsRetryDuration",
+        "out_dtAllData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Click on Display All Invoices Button.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_2",
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intNumberOfRetry",
+        "in_tsRetryDuration"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Open Invoices Window.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_3",
+        "boolPreCondition&Sequence_3",
+        "boolPostCondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intNumberOfRetry",
+        "in_tsRetryDuration"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Launch ACME System1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPassword&Sequence_1",
+        "boolExists&Sequence_7",
+        "boolPreCondition&Sequence_7",
+        "boolPostCondition&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intNumberOfRetry",
+        "in_tsRetryDuration",
+        "in_strEmail"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Encrypting Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_2",
+        "boolPreCondition&Sequence_2",
+        "dtExtractDataTable&Sequence_3",
+        "boolPostCondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_tsRetryDuration",
+        "in_intNumberOfRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test file.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtConciergeServices&Sequence_20",
+        "dtBeveragesCatering&Sequence_20",
+        "dtProfessionalServices&Sequence_20",
+        "dtITSupport&Sequence_20",
+        "boolExists&Sequence_3",
+        "boolPreCondition&Sequence_3",
+        "dtExtractDataTable&Sequence_4",
+        "boolPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_tsRetryDuration",
+        "out_dtAllData",
+        "in_intNumberOfRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Data Table Manipulation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtWasteManagementServices&Sequence_6",
+        "dtVariousPaperSupplies&Sequence_6",
+        "dtITSupport&Sequence_6",
+        "dtProfessionalServices&Sequence_6",
+        "dtBeveragesCatering&Sequence_6",
+        "dtConciergeServices&Sequence_6",
+        "boolExists&Sequence_2",
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtAllData",
+        "in_tsRetryDuration",
+        "in_intNumberOfRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
