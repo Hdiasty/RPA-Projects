@@ -4,6 +4,7 @@
   "description": "This process automates invoice data extraction and processing from the ACME System1 website. It begins by logging into the system and retrieving all invoice data. The robot then categorizes invoices based on their \"Total\" value and \"Invoice Item\" content, encrypting and uploading them to a robot queue with varying priorities. Subsequently, an Excel file (\"Invoices\") is generated, with each sheet representing a unique invoice item category and containing relevant invoice details. The total amount",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Cryptography.Activities": "[1.6.1]",
     "UiPath.Excel.Activities": "[2.25.1-preview]",
     "UiPath.System.Activities": "[25.2.1]",
     "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
