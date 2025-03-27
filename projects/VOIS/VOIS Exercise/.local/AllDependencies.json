@@ -19810,19 +19810,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Home\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "VOIS Exercise",
       "projectName": "VOIS Exercise",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\RPA\\Haidy Repo\\RPA-Projects\\projects\\VOIS\\VOIS Exercise\\.local",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\RPA\\Haidy Repo\\RPA-Projects\\projects\\VOIS\\VOIS Exercise\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "projectPath": "C:\\Users\\Home\\Desktop\\GitHub\\RPA-Projects\\projects\\VOIS\\VOIS Exercise\\.local",
+      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Home\\Desktop\\GitHub\\RPA-Projects\\projects\\VOIS\\VOIS Exercise\\.local",
+      "UsingMicrosoftNETSdk": false
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -19848,7 +19845,7 @@
             "version": "[25.2.1-preview, 25.2.1-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\DELL\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Home\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
