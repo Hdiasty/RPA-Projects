@@ -12,11 +12,15 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "dtAllData&Flowchart_1",
         "intNumberOfRetry&Flowchart_1",
         "tsRetryDuration&Flowchart_1",
         "strEmail&Flowchart_1",
-        "strPassword&Flowchart_1"
+        "strPassword&Flowchart_1",
+        "dtAllData&Flowchart_1",
+        "dtHighPeriority&Flowchart_1",
+        "dtNormalPeriority&Flowchart_1",
+        "dtRemainInvoices&Flowchart_1",
+        "strEncryptedData&Flowchart_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
@@ -126,6 +130,11 @@
       "Path": "Data Table Manipulation.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "doubleCAD&Sequence_6",
+        "doubleRON&Sequence_6",
+        "doubleEUR&Sequence_6",
+        "strAmountValue&Sequence_6",
+        "dtITSupportAndProfessional&Sequence_6",
         "dtWasteManagementServices&Sequence_6",
         "dtVariousPaperSupplies&Sequence_6",
         "dtITSupport&Sequence_6",
@@ -137,9 +146,89 @@
         "boolPostCondition&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
+        "out_dtHighPeriority",
+        "out_dtNormalPeriority",
+        "out_dtRemainInvoices",
         "in_dtAllData",
         "in_tsRetryDuration",
         "in_intNumberOfRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Encrypting Data table(Autosaved).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_2",
+        "boolPreCondition&Sequence_2",
+        "dtUploadingEncryptedData&Sequence_10",
+        "strJesonData&Sequence_10",
+        "strEncryptedText&Sequence_10",
+        "boolPostCondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intNumberOfRetry",
+        "in_tsRetryDuration",
+        "in_dtHighPeriority",
+        "in_dtNormalPeriority",
+        "in_dtRemainInvoices"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Encrypting Data table.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strDecryptedText&Sequence_10",
+        "strJson&Sequence_10",
+        "dtEncryptedDataTabe&Sequence_10",
+        "boolExists&Sequence_2",
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_tsRetryDuration",
+        "in_dtHighPeriority",
+        "out_strEnryptedText",
+        "in_dtRemainInvoices",
+        "in_dtNormalPeriority",
+        "in_intNumberOfRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Robot Queue Uploading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_7",
+        "boolPreCondition&Sequence_7",
+        "dtEncryptedDataTabe&Sequence_8",
+        "strJson&Sequence_8",
+        "strDecryptedText&Sequence_8",
+        "boolPostCondition&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strEncryptedData",
+        "in_tsRetryDuration",
+        "in_intNumberOfRetry"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Template.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolExists&Sequence_5",
+        "boolPreCondition&Sequence_5",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intNumberOfRetry",
+        "in_tsRetryDuration"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
